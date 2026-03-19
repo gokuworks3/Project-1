@@ -1019,6 +1019,10 @@ button {
   line-height: 1.3;
 }
 
+.section__title--light {
+  color: var(--white-color) !important;
+}
+
 .section__description {
   color: var(--text-color-light);
   font-size: var(--normal-font-size);
