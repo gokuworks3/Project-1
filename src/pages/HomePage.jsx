@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import heroDesktopImg from '../assets/images/hero_bg_dhaba.png'
-import heroMobileImg from '../assets/hero.png'
+import heroImg from '../assets/images/hero_bg_dhaba.png'
 
 function HomePage() {
   const [isOpen, setIsOpen] = useState(true)
@@ -21,14 +20,7 @@ function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section
-        className="home home--mobile-hero"
-        id="home"
-        style={{
-          '--home-bg-desktop': `url(${heroDesktopImg})`,
-          '--home-bg-mobile': `url(${heroMobileImg})`
-        }}
-      >
+      <section className="home" id="home" style={{ backgroundImage: `url(${heroImg})` }}>
         <div className="home__bg-overlay"></div>
 
         {/* Decorative Elements */}
@@ -190,7 +182,7 @@ function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="home-cta section" style={{ backgroundImage: `url(${heroDesktopImg})` }}>
+      <section className="home-cta section" style={{ backgroundImage: `url(${heroImg})` }}>
         <div className="cta__bg"></div>
         <div className="container">
           <div className="cta__content" data-animate="fade-up">
