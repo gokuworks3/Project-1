@@ -502,6 +502,17 @@ button {
   background-position: center;
 }
 
+.home--mobile-hero {
+  background-image: var(--home-bg-desktop);
+}
+
+@media screen and (max-width: 767px) {
+  .home--mobile-hero {
+    background-image: var(--home-bg-mobile);
+    background-position: 72% center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .home { background-attachment: fixed; }
 }
