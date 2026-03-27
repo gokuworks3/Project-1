@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = 2026
 
   const quickLinks = [
     { to: '/', label: 'Home' },
@@ -26,7 +26,7 @@ function Footer() {
       <div className="footer__container container grid">
         <div className="footer__brand">
           <Link to="/" className="footer__logo">
-            <span className="logo__text">Haryana Dhaba</span>
+            <span className="logo__text">Demo Bistro</span>
             <span className="logo__dot">.</span>
           </Link>
           <p className="footer__tagline">
@@ -39,12 +39,12 @@ function Footer() {
             <i className='bx bxs-star'></i>
             <i className='bx bxs-star'></i>
             <i className='bx bxs-star-half'></i>
-            <span>4.2 on Google · 2,400+ Reviews</span>
+            <span>4.7 Demo Rating · 1,234+ Demo Reviews</span>
           </div>
           {/* Order CTA in Footer */}
           <div className="footer__cta">
-            <a href="tel:+919894511100" className="button button--primary button--sm">
-              <i className='bx bx-phone-call'></i> Order: +91 98945 11100
+            <a href="tel:+910000000000" className="button button--primary button--sm">
+              <i className='bx bx-phone-call'></i> Order: +91 00000 00000
             </a>
           </div>
         </div>
@@ -81,14 +81,14 @@ function Footer() {
             <li>
               <i className='bx bx-map'></i>
               <div>
-                <strong>Kulathur, L&T Bypass</strong><br />
-                Opp. Sri Sakthi College,<br />
-                Coimbatore, Tamil Nadu
+                <strong>Demo District, Demo Avenue</strong><br />
+                Opp. Sample Landmark,<br />
+                Demo City, Demo State
               </div>
             </li>
             <li>
               <i className='bx bx-phone'></i>
-              <a href="tel:+919894511100">+91 98945 11100</a>
+              <a href="tel:+910000000000">+91 00000 00000</a>
             </li>
             <li>
               <i className='bx bx-time'></i>
@@ -100,7 +100,7 @@ function Footer() {
             </li>
           </ul>
           <a
-            href="https://maps.app.goo.gl/ro2cT5s9u6LZu9eY8"
+            href="https://maps.google.com/?q=Demo+Location"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__directions"
@@ -112,10 +112,10 @@ function Footer() {
 
       <div className="footer__bottom container">
         <p className="footer__copy">
-          &copy; {currentYear} Haryana Dhaba & Bakes. All rights reserved.
+          &copy; {currentYear} Demo Bistro & Bakes. All rights reserved.
         </p>
         <p className="footer__credit">
-          Crafted with <i className='bx bxs-heart'></i> in Coimbatore
+          Crafted with <i className='bx bxs-heart'></i> in Demo City
         </p>
       </div>
     </footer>

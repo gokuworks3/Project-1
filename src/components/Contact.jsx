@@ -3,14 +3,14 @@ function Contact() {
     {
       icon: 'bx-map',
       title: 'Our Location',
-      content: <>Kulathur, L&T Bypass,<br />Opp. Sri Sakthi College,<br />Coimbatore, Tamil Nadu</>,
+      content: <>Demo District, Demo Avenue,<br />Opp. Sample Landmark,<br />Demo City, Demo State</>,
     },
     {
       icon: 'bx-phone',
       title: 'Phone',
       content: (
         <>
-          <a href="tel:+919894511100" className="contact__link">+91 98945 11100</a>
+          <a href="tel:+910000000000" className="contact__link">+91 00000 00000</a>
           <p>Call for orders & reservations</p>
         </>
       ),
@@ -48,11 +48,11 @@ function Contact() {
             ))}
 
             <div className="contact__buttons">
-              <a href="tel:+919894511100" className="button button--primary">
+              <a href="tel:+910000000000" className="button button--primary">
                 <i className='bx bx-phone-call'></i> Call Now
               </a>
               <a
-                href="https://www.google.com/maps/place/Haryana+Dhaba+%26+Bakes/@11.0463034,77.078409,15z/data=!4m17!1m10!3m9!1s0x3ba8563e09210941:0x7b26a4df19479466!2sHaryana+Dhaba+%26+Bakes!8m2!3d11.046224!4d77.078565!10e5!14m1!1BCgIYIg!16s%2Fg%2F11fy2k5612!3m5!1s0x3ba8563e09210941:0x7b26a4df19479466!8m2!3d11.046224!4d77.078565!16s%2Fg%2F11fy2k5612"
+                href="https://maps.google.com/?q=Demo+Location"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--outline"
@@ -64,14 +64,14 @@ function Contact() {
 
           <div className="contact__map" data-animate="fade-left">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.7247562556823!2d77.078565!3d11.046224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8563e09210941:0x7b26a4df19479466!2sHaryana+Dhaba+%26+Bakes!5e0!3m2!1sen!2sin!4v1679000000000!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Demo+Location&t=&z=13&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Haryana Dhaba & Bakes Location"
+              title="Demo Bistro & Bakes Location"
             ></iframe>
           </div>
         </div>

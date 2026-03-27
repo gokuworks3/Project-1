@@ -2,37 +2,37 @@ function Reviews() {
   const reviews = [
     {
       initials: 'RM',
-      name: 'Rahul Mehta',
-      date: '2 weeks ago',
+      name: 'Demo Guest 01',
+      date: 'Jan 2026',
       rating: 5,
-      text: 'Tasty food with lots of North Indian options at an affordable price. The Tandoori Chicken is simply amazing! Perfect for family dinners.',
+      text: 'Sample feedback for demo purposes: tasty food, fast service, and family-friendly ambience.',
       dish: 'Tandoori Chicken',
       color: '#FF6F00',
     },
     {
       initials: 'SK',
-      name: 'Sneha Krishnan',
-      date: '1 month ago',
+      name: 'Demo Guest 02',
+      date: 'Feb 2026',
       rating: 5,
-      text: 'Good service, beautiful green ambience, and ample parking space. The fresh juices are a must-try! Great place for weekend brunch.',
+      text: 'Demo review entry: good ambience, easy parking, and refreshing drinks.',
       dish: 'Fresh Juices',
       color: '#4CAF50',
     },
     {
       initials: 'AV',
-      name: 'Arun Venkat',
-      date: '3 weeks ago',
+      name: 'Demo Guest 03',
+      date: 'Mar 2026',
       rating: 4.5,
-      text: 'Amazing find on the L&T Bypass! Authentic North Indian taste and very budget-friendly. The Azam Nizam Kebabs are to die for!',
+      text: 'Sample testimonial: strong North Indian flavors and good value for money.',
       dish: 'Azam Nizam Kebab',
       color: '#E91E63',
     },
     {
       initials: 'PS',
-      name: 'Priya Sharma',
-      date: '1 week ago',
+      name: 'Demo Guest 04',
+      date: 'Mar 2026',
       rating: 5,
-      text: 'Best dhaba experience in Coimbatore! The paneer dishes are so creamy and the naans are perfectly fluffy. Will definitely come back!',
+      text: 'Demo customer note: creamy paneer dishes, soft breads, and pleasant seating.',
       dish: 'Paneer Butter Masala',
       color: '#9C27B0',
     },
@@ -67,7 +67,7 @@ function Reviews() {
                 <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
               </svg>
             </div>
-            <span className="reviews__stat-number">4.2</span>
+            <span className="reviews__stat-number">4.7</span>
             <div className="reviews__stat-stars">
               <i className='bx bxs-star'></i>
               <i className='bx bxs-star'></i>
@@ -75,11 +75,11 @@ function Reviews() {
               <i className='bx bxs-star'></i>
               <i className='bx bxs-star-half'></i>
             </div>
-            <span className="reviews__stat-label">Google Rating</span>
+            <span className="reviews__stat-label">Demo Rating</span>
           </div>
           <div className="reviews__stat-divider"></div>
           <div className="reviews__stat">
-            <span className="reviews__stat-number">2,400+</span>
+            <span className="reviews__stat-number">1,234+</span>
             <span className="reviews__stat-label">Happy Customers</span>
           </div>
           <div className="reviews__stat-divider"></div>
@@ -90,7 +90,7 @@ function Reviews() {
         </div>
 
         <span className="section__subtitle">Customer Love</span>
-        <h2 className="section__title">Why 2,400+ Customers Keep Coming Back</h2>
+        <h2 className="section__title">Why 1,234+ Customers Keep Coming Back</h2>
 
         <div className="reviews__container grid">
           {reviews.map((review, index) => (
@@ -126,7 +126,7 @@ function Reviews() {
 
         <div className="reviews__cta">
           <a
-            href="https://maps.app.goo.gl/ro2cT5s9u6LZu9eY8"
+            href="https://maps.google.com/?q=Demo+Location"
             target="_blank"
             rel="noopener noreferrer"
             className="button button--outline"

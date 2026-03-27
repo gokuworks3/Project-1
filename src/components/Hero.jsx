@@ -14,14 +14,14 @@ function Hero() {
               <i className='bx bxs-star'></i>
               <i className='bx bxs-star'></i>
               <i className='bx bxs-star-half'></i>
-              <span>4.2 Rating</span>
+              <span>4.7 Demo Rating</span>
             </div>
             <div className="home__divider"></div>
-            <span className="home__customers">2,400+ Happy Customers</span>
+            <span className="home__customers">1,234+ Happy Customers</span>
           </div>
 
           <h1 className="home__title">
-            Authentic North Indian Flavours in the Heart of Coimbatore
+            Authentic North Indian Flavours in the Heart of Demo City
           </h1>
 
           <p className="home__description">
@@ -33,7 +33,7 @@ function Hero() {
             <a href="#menu" className="button button--primary">
               <i className='bx bx-restaurant'></i> View Menu
             </a>
-            <a href="tel:+919894511100" className="button button--secondary">
+            <a href="tel:+910000000000" className="button button--secondary">
               <i className='bx bx-phone-call'></i> Order Now
             </a>
           </div>

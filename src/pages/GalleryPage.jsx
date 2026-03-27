@@ -117,7 +117,7 @@ function GalleryPage() {
               Pictures can't do justice to the experience. Visit us to see, smell, and taste the difference.
             </p>
             <div className="cta__buttons">
-              <a href="tel:+919894511100" className="button button--primary button--large">
+              <a href="tel:+910000000000" className="button button--primary button--large">
                 <i className='bx bx-phone-call'></i> Reserve a Table
               </a>
               <Link to="/contact" className="button button--secondary button--large">

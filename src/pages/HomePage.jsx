@@ -1,22 +1,7 @@
 import { Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
 import heroImg from '../assets/images/hero_bg_dhaba.png'
 
 function HomePage() {
-  const [isOpen, setIsOpen] = useState(true)
-
-  useEffect(() => {
-    const checkOpenStatus = () => {
-      const now = new Date()
-      const hours = now.getHours() + now.getMinutes() / 60
-      // Open from 11:00 AM to 11:30 PM
-      setIsOpen(hours >= 11 && hours < 23.5)
-    }
-    checkOpenStatus()
-    const interval = setInterval(checkOpenStatus, 60000)
-    return () => clearInterval(interval)
-  }, [])
-
   return (
     <>
       {/* Hero Section */}
@@ -46,17 +31,17 @@ function HomePage() {
                     <i className='bx bxs-star'></i>
                     <i className='bx bxs-star-half'></i>
                   </div>
-                  <span className="home__rating-text"><strong>4.2</strong> Rating</span>
+                  <span className="home__rating-text"><strong>4.7</strong> Demo Rating</span>
                 </div>
               </div>
               <span className="home__badge-divider"></span>
-              <span className="home__customers"><strong>2,400+</strong> Happy Customers</span>
+              <span className="home__customers"><strong>1,234+</strong> Happy Customers</span>
             </div>
 
             {/* Emotional Headline */}
             <h1 className="home__title">
               The Taste of <span className="home__title-accent">Home</span>,<br className="home__title-break" />
-              Right Here in Coimbatore
+              Right Here in Demo City
             </h1>
 
             {/* Clear Value Proposition */}
@@ -68,7 +53,7 @@ function HomePage() {
 
             {/* Flipped CTA Hierarchy - Order First */}
             <div className="home__buttons">
-              <a href="tel:+919894511100" className="button button--primary button--glow">
+              <a href="tel:+910000000000" className="button button--primary button--glow">
                 <i className='bx bx-phone-call'></i> Order Now
               </a>
               <Link to="/menu" className="button button--secondary">
@@ -78,9 +63,9 @@ function HomePage() {
 
             {/* Quick Info with Live Status */}
             <div className="home__info">
-              <div className={`home__info-item home__info-item--live ${isOpen ? 'is-open' : 'is-closed'}`}>
+              <div className="home__info-item home__info-item--live is-open">
                 <span className="home__live-dot"></span>
-                <span>{isOpen ? 'Open Now' : 'Closed'} · Until 11:30 PM</span>
+                <span>Demo Hours · 11:00 AM to 11:30 PM</span>
               </div>
               <div className="home__info-item">
                 <i className='bx bx-rupee'></i>
@@ -95,7 +80,7 @@ function HomePage() {
             {/* Social Proof Trigger */}
             <div className="home__social-proof">
               <i className='bx bx-group'></i>
-              <span>Trusted by families across Coimbatore since 2014</span>
+              <span>Demo social proof: trusted by local food lovers</span>
             </div>
           </div>
         </div>
@@ -139,7 +124,7 @@ function HomePage() {
                 <i className='bx bx-restaurant'></i>
               </div>
               <h3>Authentic Taste</h3>
-              <p>Traditional recipes from Haryana & Punjab, crafted by expert chefs with 10+ years of experience.</p>
+              <p>Traditional North Indian recipes, crafted by expert chefs with 10+ years of experience.</p>
               <Link to="/about" className="preview-card__link">
                 Our Story <i className='bx bx-right-arrow-alt'></i>
               </Link>
@@ -160,8 +145,8 @@ function HomePage() {
               <div className="preview-card__icon preview-card__icon--gold">
                 <i className='bx bxs-star'></i>
               </div>
-              <h3>4.2★ Rated</h3>
-              <p>Loved by 2,400+ happy customers. See why they keep coming back.</p>
+              <h3>4.7★ Demo Rated</h3>
+              <p>Loved by 1,234+ happy customers. See why they keep coming back.</p>
               <Link to="/reviews" className="preview-card__link">
                 Read Reviews <i className='bx bx-right-arrow-alt'></i>
               </Link>
@@ -172,7 +157,7 @@ function HomePage() {
                 <i className='bx bx-map'></i>
               </div>
               <h3>Easy to Find</h3>
-              <p>L&T Bypass, Kulathur — with free parking & peaceful green outdoor seating.</p>
+              <p>Demo Avenue, Demo District — with free parking & peaceful green outdoor seating.</p>
               <Link to="/contact" className="preview-card__link">
                 Get Directions <i className='bx bx-right-arrow-alt'></i>
               </Link>
@@ -192,11 +177,11 @@ function HomePage() {
               Skip the wait. Order now for dine-in, takeaway, or delivery.
             </p>
             <div className="cta__buttons">
-              <a href="tel:+919894511100" className="button button--primary button--large button--glow">
-                <i className='bx bx-phone-call'></i> Call Now: +91 98945 11100
+              <a href="tel:+910000000000" className="button button--primary button--large button--glow">
+                <i className='bx bx-phone-call'></i> Call Now: +91 00000 00000
               </a>
               <a
-                href="https://wa.me/919894511100?text=Hi!%20I'd%20like%20to%20place%20an%20order%20from%20Haryana%20Dhaba"
+                href="https://wa.me/910000000000?text=Hi!%20I'd%20like%20to%20place%20an%20order%20from%20Demo%20Bistro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--whatsapp button--large"
@@ -205,7 +190,7 @@ function HomePage() {
               </a>
             </div>
             <Link to="/contact" className="cta__link">
-              <i className='bx bx-map-pin'></i> Or visit us at L&T Bypass, Kulathur
+              <i className='bx bx-map-pin'></i> Or visit us at Demo Avenue, Demo District
             </Link>
           </div>
         </div>

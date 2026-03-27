@@ -57,7 +57,7 @@ function Header() {
     <header className={`header ${isScrolled ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
         <Link to="/" className="nav__logo">
-          <span className="logo__text">Haryana Dhaba</span>
+          <span className="logo__text">Demo Bistro</span>
           <span className="logo__dot">.</span>
         </Link>
 
@@ -82,7 +82,7 @@ function Header() {
 
         <div className="nav__actions">
           <a
-            href="tel:+919894511100"
+            href="tel:+910000000000"
             className={`button button--nav ${showPulse ? 'button--glow' : ''}`}
           >
             <i className='bx bx-phone'></i> Order Now

@@ -16,7 +16,7 @@ function AboutPage() {
     {
       icon: 'bx-restaurant',
       title: 'Authentic North Indian Taste',
-      description: 'Original recipes passed down through generations, cooked by expert chefs from Haryana and Punjab.',
+      description: 'Original recipes passed down through generations, cooked by expert chefs from North India.',
     },
     {
       icon: 'bx-wallet',
@@ -83,15 +83,15 @@ function AboutPage() {
           <div className="about__data" data-animate="fade-left">
             <span className="section__subtitle">Our Story</span>
             <h2 className="section__title about__title">
-              Bringing the Rich Taste of North India to Coimbatore
+              Bringing the Rich Taste of North India to Demo City
             </h2>
             <p className="about__description">
-              Haryana Dhaba & Bakes brings you an authentic culinary journey filled with rich spices,
+              Demo Bistro & Bakes brings you an authentic culinary journey filled with rich spices,
               traditional recipes, and heartwarming flavours. Every dish is crafted with fresh,
               quality ingredients by our expert chefs who pour their passion into each meal.
             </p>
             <p className="about__description">
-              Nestled along the L&T Bypass, our green, nature-inspired ambience provides the perfect
+              Nestled along the Demo Avenue, our green, nature-inspired ambience provides the perfect
               escape from the city hustle. Whether you're a family looking for a hearty meal,
               students seeking affordable options, or food lovers craving authentic North Indian
               cuisine — we welcome you home.
@@ -118,7 +118,7 @@ function AboutPage() {
         <div className="features__bg"></div>
         <div className="container">
           <span className="section__subtitle section__subtitle--light">Why Choose Us</span>
-          <h2 className="section__title section__title--light">The Best Dhaba Experience in Coimbatore</h2>
+          <h2 className="section__title section__title--light">The Best Dhaba Experience in Demo City</h2>
 
           <div className="features__container grid">
             {highlights.map((feature, index) => (
@@ -203,7 +203,7 @@ function AboutPage() {
               We're open daily until 11:30 PM. Reservations recommended for lunch.
             </p>
             <div className="cta__buttons">
-              <a href="tel:+919894511100" className="button button--primary button--large">
+              <a href="tel:+910000000000" className="button button--primary button--large">
                 <i className='bx bx-phone-call'></i> Call Now
               </a>
               <Link to="/contact" className="button button--secondary button--large">

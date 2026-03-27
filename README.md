@@ -1,4 +1,4 @@
-# Haryana Dhaba & Bakes - Restaurant Website
+# Demo Bistro & Bakes - Restaurant Website
 
 A modern, premium restaurant website built with React and Vite. Featuring a beautiful UI with responsive design, interactive components, and optimized performance.
 
@@ -143,9 +143,9 @@ src/
 
 ## 🔗 Contact Information
 
-- **Phone**: +91 98945 11100
-- **Location**: Kulathur, L&T Bypass, Opp. Sri Sakthi College, Coimbatore, Tamil Nadu
-- **Google Maps**: [View Directions](https://maps.app.goo.gl/ro2cT5s9u6LZu9eY8)
+- **Phone**: +91 00000 00000
+- **Location**: Demo District, Demo Avenue, Opp. Sample Landmark, Demo City, Demo State
+- **Google Maps**: [View Directions](https://maps.google.com/?q=Demo+Location)
 - **Hours**: Monday - Sunday, Open until 11:30 PM
 
 ## 📝 Available Scripts
@@ -170,7 +170,7 @@ This is a custom restaurant website. For modifications or feature requests, plea
 
 ## 📄 License
 
-All rights reserved. Haryana Dhaba & Bakes © 2024
+All rights reserved. Demo Bistro & Bakes © 2024
 
 ## 👨‍💻 Author
 

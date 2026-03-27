@@ -27,12 +27,12 @@ function MobileCTA() {
 
   return (
     <div className={`mobile-cta ${isVisible ? 'show' : ''}`}>
-      <a href="tel:+919894511100" className="mobile-cta__button mobile-cta__button--call">
+      <a href="tel:+910000000000" className="mobile-cta__button mobile-cta__button--call">
         <i className='bx bx-phone-call'></i>
         <span>Call Now</span>
       </a>
       <a
-        href="https://wa.me/919894511100?text=Hi!%20I'd%20like%20to%20order%20from%20Haryana%20Dhaba"
+        href="https://wa.me/910000000000?text=Hi!%20I'd%20like%20to%20order%20from%20Demo%20Bistro"
         target="_blank"
         rel="noopener noreferrer"
         className="mobile-cta__button mobile-cta__button--whatsapp"

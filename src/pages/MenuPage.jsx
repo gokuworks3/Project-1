@@ -115,8 +115,8 @@ function MenuPage() {
           <p className="menu-inline-cta__subtext">Skip the wait — order now!</p>
         </div>
       </div>
-      <a href="tel:+919894511100" className="button button--primary button--glow">
-        Call: +91 98945 11100
+      <a href="tel:+910000000000" className="button button--primary button--glow">
+        Call: +91 00000 00000
       </a>
     </div>
   )
@@ -204,11 +204,11 @@ function MenuPage() {
               <p className="menu-cta__subtext">Call us or visit for the freshest North Indian experience!</p>
             </div>
             <div className="menu-cta__buttons">
-              <a href="tel:+919894511100" className="button button--primary button--glow">
+              <a href="tel:+910000000000" className="button button--primary button--glow">
                 <i className='bx bx-phone-call'></i> Call to Order
               </a>
               <a
-                href="https://wa.me/919894511100?text=Hi!%20I'd%20like%20to%20order%20from%20Haryana%20Dhaba"
+                href="https://wa.me/910000000000?text=Hi!%20I'd%20like%20to%20order%20from%20Demo%20Bistro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button--whatsapp"

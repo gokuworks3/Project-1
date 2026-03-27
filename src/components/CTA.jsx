@@ -9,15 +9,15 @@ function CTA() {
           <span className="cta__tagline">Ready to Dine?</span>
           <h2 className="cta__title">Craving Delicious North Indian Food?</h2>
           <p className="cta__description">
-            Join us at Haryana Dhaba & Bakes for an unforgettable dining experience.
+            Join us at Demo Bistro & Bakes for an unforgettable dining experience.
             Whether it's a quick lunch, family dinner, or celebration — we're here to serve you.
           </p>
           <div className="cta__buttons">
-            <a href="tel:+919894511100" className="button button--primary button--large">
-              <i className='bx bx-phone-call'></i> Call Now: +91 98945 11100
+            <a href="tel:+910000000000" className="button button--primary button--large">
+              <i className='bx bx-phone-call'></i> Call Now: +91 00000 00000
             </a>
             <a
-              href="https://maps.app.goo.gl/ro2cT5s9u6LZu9eY8"
+              href="https://maps.google.com/?q=Demo+Location"
               target="_blank"
               rel="noopener noreferrer"
               className="button button--secondary button--large"

@@ -33,11 +33,11 @@ function About() {
             Every Dish Tells a Story
           </h2>
           <p className="about__description about__description--lead">
-            Our chefs bring <strong>10+ years of tradition</strong> from the dhabas of Haryana —
+            Our chefs bring <strong>10+ years of tradition</strong> from classic North Indian kitchens —
             slow-cooked dals, hand-stretched naans, and tandoori that sizzles with flavour.
           </p>
           <p className="about__description">
-            Nestled along the L&T Bypass, our garden seating offers an escape from the city.
+            Nestled along the Demo Avenue, our garden seating offers an escape from the city.
             Whether you're celebrating with family, catching up with friends, or simply craving
             comfort food — <em>this isn't just a meal, it's home.</em>
           </p>

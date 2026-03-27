@@ -135,7 +135,7 @@ function Menu() {
             <p className="menu__cta-subtext">See our full menu with 60+ dishes or order now</p>
           </div>
           <div className="menu__cta-buttons">
-            <a href="tel:+919894511100" className="button button--primary button--glow">
+            <a href="tel:+910000000000" className="button button--primary button--glow">
               <i className='bx bx-phone-call'></i> Order Now
             </a>
             <Link to="/menu" className="button button--outline">

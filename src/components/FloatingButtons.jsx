@@ -25,7 +25,7 @@ function FloatingButtons() {
       <div className={`fab ${showFab ? 'show' : ''}`}>
         {/* WhatsApp - Primary for Indian market */}
         <a
-          href="https://wa.me/919894511100?text=Hi!%20I'd%20like%20to%20place%20an%20order%20from%20Haryana%20Dhaba"
+          href="https://wa.me/910000000000?text=Hi!%20I'd%20like%20to%20place%20an%20order%20from%20Demo%20Bistro"
           target="_blank"
           rel="noopener noreferrer"
           className="fab__button fab__button--whatsapp"
@@ -35,7 +35,7 @@ function FloatingButtons() {
         </a>
         {/* Call Button */}
         <a
-          href="tel:+919894511100"
+          href="tel:+910000000000"
           className="fab__button fab__button--call"
           title="Call to Order"
         >
@@ -43,7 +43,7 @@ function FloatingButtons() {
         </a>
         {/* Directions */}
         <a
-          href="https://maps.app.goo.gl/ro2cT5s9u6LZu9eY8"
+          href="https://maps.google.com/?q=Demo+Location"
           target="_blank"
           rel="noopener noreferrer"
           className="fab__button fab__button--map"

@@ -3,7 +3,7 @@ function Features() {
     {
       icon: 'bx-restaurant',
       title: 'Authentic North Indian Taste',
-      description: 'Original recipes passed down through generations, cooked by expert chefs from Haryana and Punjab.',
+      description: 'Original recipes passed down through generations, cooked by expert chefs from North India.',
     },
     {
       icon: 'bx-wallet',
@@ -37,7 +37,7 @@ function Features() {
       <div className="features__bg"></div>
       <div className="container">
         <span className="section__subtitle section__subtitle--light">Why Choose Us</span>
-        <h2 className="section__title section__title--light">The Best Dhaba Experience in Coimbatore</h2>
+        <h2 className="section__title section__title--light">The Best Dhaba Experience in Demo City</h2>
 
         <div className="features__container grid">
           {features.map((feature, index) => (

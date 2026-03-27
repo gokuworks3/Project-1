@@ -1,29 +1,29 @@
-/*========== HARYANA DHABA - PREMIUM STYLES ==========*/
+/*========== DEMO BISTRO - PREMIUM STYLES ==========*/
 
 /*========== VARIABLES ==========*/
 :root {
-  /* Colors - Premium Palette */
-  --primary-color: #3E2723;
-  --primary-color-alt: #2D1B18;
-  --primary-color-light: #5D4037;
-  --secondary-color: #F5E9DC;
-  --secondary-color-alt: #EDE0D0;
-  --accent-color: #E65100;
-  --accent-color-light: #FF8F00;
-  --accent-color-dark: #C43E00;
-  --accent-gradient: linear-gradient(135deg, #E65100 0%, #C43E00 100%);
-  --dark-gradient: linear-gradient(135deg, #3E2723 0%, #2D1B18 100%);
-  --bg-color: #FAFAFA;
-  --bg-color-alt: #F5F5F5;
-  --text-color: #212121;
-  --text-color-light: #616161;
-  --text-color-lighter: #9E9E9E;
+  /* Colors - Ocean Teal Theme */
+  --primary-color: #11253B;
+  --primary-color-alt: #0B1A2B;
+  --primary-color-light: #1F3C5B;
+  --secondary-color: #E8F7F3;
+  --secondary-color-alt: #D7F1EA;
+  --accent-color: #00A896;
+  --accent-color-light: #34CBB9;
+  --accent-color-dark: #007A74;
+  --accent-gradient: linear-gradient(135deg, #00A896 0%, #007A74 100%);
+  --dark-gradient: linear-gradient(135deg, #11253B 0%, #0B1A2B 100%);
+  --bg-color: #F7FBFC;
+  --bg-color-alt: #EEF5F7;
+  --text-color: #172B3A;
+  --text-color-light: #4F6472;
+  --text-color-lighter: #7B8B98;
   --white-color: #FFFFFF;
   --black-color: #000000;
-  --success-color: #4CAF50;
-  --gold-color: #FFD700;
-  --overlay-dark: rgba(33, 33, 33, 0.85);
-  --overlay-gradient: linear-gradient(135deg, rgba(33, 33, 33, 0.9) 0%, rgba(62, 39, 35, 0.8) 100%);
+  --success-color: #2EAA74;
+  --gold-color: #E2B93B;
+  --overlay-dark: rgba(11, 26, 43, 0.82);
+  --overlay-gradient: linear-gradient(135deg, rgba(11, 26, 43, 0.9) 0%, rgba(17, 37, 59, 0.82) 100%);
   --glass-bg: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
 
@@ -72,9 +72,9 @@
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
   --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.16);
   --shadow-2xl: 0 24px 64px rgba(0, 0, 0, 0.2);
-  --shadow-accent: 0 8px 32px rgba(230, 81, 0, 0.3);
-  --shadow-accent-lg: 0 16px 48px rgba(230, 81, 0, 0.4);
-  --glow-accent: 0 0 40px rgba(230, 81, 0, 0.3);
+  --shadow-accent: 0 8px 32px rgba(0, 168, 150, 0.3);
+  --shadow-accent-lg: 0 16px 48px rgba(0, 168, 150, 0.4);
+  --glow-accent: 0 0 40px rgba(0, 168, 150, 0.3);
 
   /* Transitions */
   --transition-fast: 0.15s ease;
@@ -630,9 +630,9 @@ button {
 }
 
 .home__title-accent {
-  color: #E65100;
-  -webkit-text-fill-color: #E65100;
-  text-shadow: 0 2px 6px rgba(230, 81, 0, 0.3);
+  color: var(--accent-color);
+  -webkit-text-fill-color: var(--accent-color);
+  text-shadow: 0 2px 6px rgba(0, 168, 150, 0.35);
   position: relative;
 }
 
